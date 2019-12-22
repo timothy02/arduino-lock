@@ -1,11 +1,11 @@
-#Arduino-lock
+# Arduino-lock
 
 **Arduino-lock** is a small project created for learning purposes. The idea is to create a *simulated lock* that is accessible through various inputs. Currently, available inputs are:
-4x4 matrix keypad
+- 4x4 matrix keypad
 
 The project is done on *Arduino UNO* clone.
 
-##User interface
+## User interface
 User can know the current state of lock via two outputs.
 **LEDs** - three leds connected to [digital pins](#sketch)
 
@@ -18,7 +18,7 @@ User can know the current state of lock via two outputs.
 
 **Serial monitor** - Arduino outputs lock state at the serial monitor. It is going to change to LCD display in the future.
 
-##Libraries
+## Libraries
 Here’s a list of libraries used in this project. They are aviable at Arduino library manager.
 | Library | Version | Link |
 | --------- | ---------- | ------ |
@@ -26,11 +26,11 @@ Here’s a list of libraries used in this project. They are aviable at Arduino l
 | IRremote | 2.0.1 | [Link](https://github.com/shirriff/Arduino-IRremote.git) | 
 
 
-##Sketch
+## Sketch
 Here’s the scetch of the project created in [Fritzing](https://fritzing.org/home/) software. You can [download it](sketch.fzz) and explore it by yourself.
 ![Sketch](sketch.png)
 
-##Components
+## Components
 Here’s a list of components used in this project.
 | Component | Description |
 | ---------------- | --------------- |
@@ -40,11 +40,11 @@ Here’s a list of components used in this project.
 | Resistors | Three 220K resistors |
 | RC receiver | I used this really cheap 3 pin [RC receiver](https://www.aliexpress.com/item/32386238868.html). |
 
-##Todolist
+## Todolist
 I want to continue this project for a little bit and work on:
-code maintenance and readability
-adding another inputs like RC and RFID
-LCD display
+- code maintenance and readability
+- adding another inputs like RC and RFID
+- LCD display
 
 
 
