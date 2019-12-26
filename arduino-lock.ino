@@ -3,9 +3,6 @@
 #include <IRremoteInt.h>
 
 /* GLOBAL VARIABLES */
-bool isTypingNewCode = false;
-bool isOpen = false;
-
 const int GREEN_LIGHT = 12;
 const int YELLOW_LIGHT = 11;
 const int RED_LIGHT = 10;
