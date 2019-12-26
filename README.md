@@ -20,8 +20,9 @@ User can know the current state of lock via two outputs.
 
 ## Libraries
 Here’s a list of libraries used in this project. They are aviable at Arduino library manager.
+
 | Library | Version | Link |
-| --------- | ---------- | ------ |
+| --- | --- | --- |
 | Keypad | 3.1.1 | [Link](https://playground.arduino.cc/Code/Keypad/) | 
 | IRremote | 2.0.1 | [Link](https://github.com/shirriff/Arduino-IRremote.git) | 
 
@@ -32,8 +33,9 @@ Here’s the scetch of the project created in [Fritzing](https://fritzing.org/ho
 
 ## Components
 Here’s a list of components used in this project.
+
 | Component | Description |
-| ---------------- | --------------- |
+| --- | --- |
 | Arduino UNO | An Arduino UNO clone. |
 | 4x4 matrix | 4x4 matrix keypad used for user input. I used [this one](https://www.amazon.com/uxcell-Matrix-Keypad-Keyboard-Arduino/dp/B07QT85F75).  |
 | LED | Standard green, yellow and red LEDs. |
